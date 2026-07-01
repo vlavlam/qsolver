@@ -1,0 +1,8 @@
+# Fortran build artifacts
+*.o
+*.mod
+*.smod
+# compiled test executable
+qtest
+qtest.exe
+*.exe
