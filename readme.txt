@@ -3,39 +3,12 @@ Program version: 1.0
 Program authors: Vladimir Meshkov, Asen Pashov, Andrey Stolyarov
 Corresponding author: Vladimir Meshkov
 Contact e-mail: MeshkovVV@my.msu.ru
-Associated publication:
-  Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
-  "qsolver: A program for the accurate solution of coupled radial
-  Schrödinger equations for bound and resonant states",
-  Computer Physics Communications 329 (2026), article 110393.
-  DOI: https://doi.org/10.1016/j.cpc.2026.110393
 Developer's repository: https://github.com/vlavlam/qsolver
 CPC Program Library archive: https://doi.org/10.17632/x4dgx6k5g8.1
 Programming language: Fortran 2003
 License: MIT (see the LICENSE file)
 The distributed source files qsolver.f90, qpotentials.f90, and qtest.f90
 have been validated to conform to the Fortran 2003 standard.
-
-Citation
---------
-If you use qsolver in your research, please cite the publication above.
-The article DOI identifies the paper; the CPC Program Library DOI
-identifies the archived program files.
-The CITATION.cff file provides machine-readable citation metadata, with
-the article as the preferred citation for GitHub's "Cite this repository".
-
-BibTeX:
-
-  @article{Meshkov2026qsolver,
-    author  = {Meshkov, Vladimir and Pashov, Asen and Stolyarov, Andrey},
-    title   = {{qsolver}: A program for the accurate solution of coupled radial
-               {Schr{\"o}dinger} equations for bound and resonant states},
-    journal = {Computer Physics Communications},
-    volume  = {329},
-    pages   = {110393},
-    year    = {2026},
-    doi     = {10.1016/j.cpc.2026.110393}
-  }
 
 1. Purpose of the package
 -------------------------
@@ -264,3 +237,31 @@ provided in the accompanying LICENSE file, and the same license is declared
 in the "Licensing provisions" field of the associated publication.
 
   License: MIT
+
+10. Citation
+------------
+Associated publication:
+  Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
+  "qsolver: A program for the accurate solution of coupled radial
+  Schrödinger equations for bound and resonant states",
+  Computer Physics Communications 329 (2026), article 110393.
+  DOI: https://doi.org/10.1016/j.cpc.2026.110393
+
+If you use qsolver in your research, please cite the publication above.
+The article DOI identifies the paper; the CPC Program Library DOI
+identifies the archived program files.
+The CITATION.cff file provides machine-readable citation metadata, with
+the article as the preferred citation for GitHub's "Cite this repository".
+
+BibTeX:
+
+  @article{Meshkov2026qsolver,
+    author  = {Meshkov, Vladimir and Pashov, Asen and Stolyarov, Andrey},
+    title   = {{qsolver}: A program for the accurate solution of coupled radial
+               {Schr{\"o}dinger} equations for bound and resonant states},
+    journal = {Computer Physics Communications},
+    volume  = {329},
+    pages   = {110393},
+    year    = {2026},
+    doi     = {10.1016/j.cpc.2026.110393}
+  }
