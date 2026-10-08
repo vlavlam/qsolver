@@ -3,11 +3,39 @@ Program version: 1.0
 Program authors: Vladimir Meshkov, Asen Pashov, Andrey Stolyarov
 Corresponding author: Vladimir Meshkov
 Contact e-mail: MeshkovVV@my.msu.ru
-Associated manuscript: "qsolver: a program for the accurate solution of coupled radial Schrodinger equations for bound and resonant states"
+Associated publication:
+  Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
+  "qsolver: A program for the accurate solution of coupled radial
+  Schrödinger equations for bound and resonant states",
+  Computer Physics Communications 329 (2026), article 110393.
+  DOI: https://doi.org/10.1016/j.cpc.2026.110393
+Developer's repository: https://github.com/vlavlam/qsolver
+CPC Program Library archive: https://doi.org/10.17632/x4dgx6k5g8.1
 Programming language: Fortran 2003
 License: MIT (see the LICENSE file)
 The distributed source files qsolver.f90, qpotentials.f90, and qtest.f90
 have been validated to conform to the Fortran 2003 standard.
+
+Citation
+--------
+If you use qsolver in your research, please cite the publication above.
+The article DOI identifies the paper; the CPC Program Library DOI
+identifies the archived program files.
+The CITATION.cff file provides machine-readable citation metadata, with
+the article as the preferred citation for GitHub's "Cite this repository".
+
+BibTeX:
+
+  @article{Meshkov2026qsolver,
+    author  = {Meshkov, Vladimir and Pashov, Asen and Stolyarov, Andrey},
+    title   = {{qsolver}: A program for the accurate solution of coupled radial
+               {Schr{\"o}dinger} equations for bound and resonant states},
+    journal = {Computer Physics Communications},
+    volume  = {329},
+    pages   = {110393},
+    year    = {2026},
+    doi     = {10.1016/j.cpc.2026.110393}
+  }
 
 1. Purpose of the package
 -------------------------
@@ -35,6 +63,9 @@ The package contains the files:
   readme.txt
       This file.
 
+  CITATION.cff
+      Citation metadata for the program and its associated publication.
+
 No separate input files are required for the supplied test program: all test potentials and settings are defined directly in qpotentials.f90 and qtest.f90.
 
 3. Documentation
@@ -50,7 +81,7 @@ against reference and literature values, and it provides a collection of
 worked examples that illustrate how to call "qsolver" for a wide range of
 particular problems. When setting up a new calculation, a good starting point is the test closest to the problem at hand.
 
-The associated manuscript text gives the theoretical background and a
+The associated publication gives the theoretical background and a
 discussion of the numerical method used.
 
 4. External requirements
@@ -230,7 +261,6 @@ header comment block (Section 3).
 ----------
 "qsolver" is distributed under the MIT License. The full license text is
 provided in the accompanying LICENSE file, and the same license is declared
-in the "Licensing provisions" field of the associated manuscript.
+in the "Licensing provisions" field of the associated publication.
 
   License: MIT
-

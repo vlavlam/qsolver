@@ -4,6 +4,15 @@
 ! Contact e-mail: MeshkovVV@my.msu.ru
 ! Version: 1.0
 !
+! If you use qsolver in your research, please cite:
+! Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
+! "qsolver: A program for the accurate solution of coupled radial
+! Schrodinger equations for bound and resonant states",
+! Computer Physics Communications 329 (2026), article 110393.
+! Article DOI: https://doi.org/10.1016/j.cpc.2026.110393
+! Program archive DOI: https://doi.org/10.17632/x4dgx6k5g8.1
+! Repository: https://github.com/vlavlam/qsolver
+!
 ! SPDX-License-Identifier: MIT
 ! Copyright (c) 2026 Vladimir Meshkov, Asen Pashov, Andrey Stolyarov
 ! qsolver is distributed under the MIT License; see the LICENSE file

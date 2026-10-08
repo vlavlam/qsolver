@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use qsolver in your research, please cite the article in preferred-citation."
+type: software
+title: "qsolver"
+version: "1.0"
+authors:
+  - family-names: "Meshkov"
+    given-names: "Vladimir"
+  - family-names: "Pashov"
+    given-names: "Asen"
+  - family-names: "Stolyarov"
+    given-names: "Andrey"
+repository-code: "https://github.com/vlavlam/qsolver"
+url: "https://github.com/vlavlam/qsolver"
+doi: "10.17632/x4dgx6k5g8.1"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Meshkov"
+      given-names: "Vladimir"
+    - family-names: "Pashov"
+      given-names: "Asen"
+    - family-names: "Stolyarov"
+      given-names: "Andrey"
+  title: "qsolver: A program for the accurate solution of coupled radial Schrödinger equations for bound and resonant states"
+  journal: "Computer Physics Communications"
+  volume: "329"
+  year: 2026
+  doi: "10.1016/j.cpc.2026.110393"
+  url: "https://doi.org/10.1016/j.cpc.2026.110393"
+  start: "110393"
