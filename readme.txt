@@ -3,6 +3,12 @@ Program version: 1.0
 Program authors: Vladimir Meshkov, Asen Pashov, Andrey Stolyarov
 Corresponding author: Vladimir Meshkov
 Contact e-mail: MeshkovVV@my.msu.ru
+Associated publication:
+  Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
+  "qsolver: A program for the accurate solution of coupled radial
+  Schrödinger equations for bound and resonant states",
+  Computer Physics Communications 329 (2026), 110393.
+  DOI: https://doi.org/10.1016/j.cpc.2026.110393
 Developer's repository: https://github.com/vlavlam/qsolver
 CPC Program Library archive: https://doi.org/10.17632/x4dgx6k5g8.1
 Programming language: Fortran 2003
@@ -240,13 +246,6 @@ in the "Licensing provisions" field of the associated publication.
 
 10. Citation
 ------------
-Associated publication:
-  Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
-  "qsolver: A program for the accurate solution of coupled radial
-  Schrödinger equations for bound and resonant states",
-  Computer Physics Communications 329 (2026), 110393.
-  DOI: https://doi.org/10.1016/j.cpc.2026.110393
-
 If you use qsolver in your research, please cite the publication above.
 The article DOI identifies the paper; the CPC Program Library DOI
 identifies the archived program files.
