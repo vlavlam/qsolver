@@ -244,7 +244,7 @@ Associated publication:
   Vladimir Meshkov, Asen Pashov, Andrey Stolyarov,
   "qsolver: A program for the accurate solution of coupled radial
   Schrödinger equations for bound and resonant states",
-  Computer Physics Communications 329 (2026), article 110393.
+  Computer Physics Communications 329 (2026), 110393.
   DOI: https://doi.org/10.1016/j.cpc.2026.110393
 
 If you use qsolver in your research, please cite the publication above.
